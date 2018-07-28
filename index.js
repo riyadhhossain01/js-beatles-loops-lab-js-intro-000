@@ -7,11 +7,11 @@ function theBeatlesPlay(array_m,array_i){
   return array_3
 }
 
-function johnLennonFacts(array,facts){
+function johnLennonFacts(facts){
   var x = 0
   var y = facts.length - 1
   while(facts.length > 0){
-    array.push(facts[x] + "!!!")
+    facts[x] = facts[x] + "!!!"
     x++
     y--
   }
@@ -25,4 +25,4 @@ function iLoveTheBeatles(number){
     array.push("I love the Beatles!")
   }while(number<15)
   return array;
-}
+} 
