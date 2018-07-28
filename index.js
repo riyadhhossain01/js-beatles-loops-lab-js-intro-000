@@ -12,7 +12,9 @@ function johnLennonFacts(facts){
   var y = facts.length
   while(x>0){
     facts[x] = facts[x] + "!!!"
+    console.log(facts[x])
     x++
+
 
   }
   return array
@@ -26,3 +28,4 @@ function johnLennonFacts(facts){
   }while(number<15)
   return array;
 }
+learn 
