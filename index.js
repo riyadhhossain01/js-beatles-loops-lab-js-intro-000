@@ -13,7 +13,7 @@ function johnLennonFacts(facts){
   while(x>0){
     facts[x] = facts[x] + "!!!"
     console.log(facts[x])
-    x++
+    x--
 
 
   }
