@@ -13,12 +13,12 @@ var facts = [
   "He hated the sound of his own voice"
 ];
 
-function johnLennonFacts(facts){
+function johnLennonFacts(arr){
   var x = 0
-  var y = facts.length
+  var y = arr.length
   var array = []
   while(x<y){
-    array.push(facts[x] + "!!!")
+    array.push(arr[x] + "!!!")
     x++
 
   }
