@@ -13,7 +13,7 @@ var facts = [
   "He hated the sound of his own voice"
 ];
 
-function johnLennonFacts(arr){
+/*function johnLennonFacts(arr){
   var x = 0
   var y = arr.length
   var array = []
@@ -23,7 +23,7 @@ function johnLennonFacts(arr){
 
   }
   return array
-}
+}*/
 
 
 function iLoveTheBeatles(number){
