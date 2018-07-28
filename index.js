@@ -8,14 +8,12 @@ function theBeatlesPlay(array_m,array_i){
 }
 
 function johnLennonFacts(facts){
-  var x = 4
+  var x = 0
   var y = facts.length
-  while(x>0){
+  while(y > 0){
     facts[x] = facts[x] + "!!!"
-    console.log(facts[x])
-    x--
-
-
+    x++
+    y--
   }
   return array
 }
@@ -28,4 +26,3 @@ function johnLennonFacts(facts){
   }while(number<15)
   return array;
 }
-learn 
