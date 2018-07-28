@@ -20,7 +20,7 @@ function johnLennonFacts(facts){
   while(x<y){
     array.push(facts[x] + "!!!")
     x++
-    y--
+
   }
   return array
 }
