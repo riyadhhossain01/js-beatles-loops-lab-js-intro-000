@@ -7,7 +7,7 @@ function theBeatlesPlay(array_m,array_i){
   return array_3
 }
 
-function johnLennonFacts(array){
+function johnLennonFacts(array,facts){
   var x = 0
   var y = facts.length - 1
   while(facts.length > 0){
