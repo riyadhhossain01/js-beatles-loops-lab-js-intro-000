@@ -6,7 +6,7 @@ function theBeatlesPlay(array_m,array_i){
   }
   return array_3
 }
-const facts = [
+var facts = [
   "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
   "He was a choir boy and boy scout",
